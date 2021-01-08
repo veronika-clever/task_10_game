@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Угадайка</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row game-card align-items-center">
+        <div class="col col-md-4 offset-md-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p class="m-0"><span id="orderNumberField"></span></p>
+                </div>
+                <div class="card-body">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <h3 class="card-title m-0"><span id="answerField">🌀Игра "Угадайка"🌀</span></h3>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-link" id="btnStart">Начинаем!⚡</button>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <span id="enterNumbers">Введите число от -999</span><input class="form-control input-window" type="text" id="inputWindowMin" value="">
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <span id="enterNumbersTwo">Введите число до 999</span><input  class="form-control input-window" type="text" id="inputWindowMax" value="">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-link" id="btnSend">Отправить ⏏</button>
+                    </div>
+                    <div class="card-footer">
+                        <p id="interval" class="text-left" align="left">Интервал чисел: <p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="btn-group">
+                        <button class="btn btn-info" id="btnLess">Меньше 🔽</button>
+                        <button class="btn btn-success btn-lg" id="btnEqual">Верно!✅</button>
+                        <button class="btn btn-info" id="btnOver">Больше 🔼</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

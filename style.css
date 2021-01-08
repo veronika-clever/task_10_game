@@ -1,0 +1,44 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+.m-0-0 {
+    background-color: aquamarine;
+    border-style: groove;
+    border-color:rgb(119, 233, 227);
+    font-style: italic;
+}
+
+.container {
+    background-color: rgb(35, 82, 82);
+    
+}
+
+
+.col-md-4 {
+    background-color: aquamarine; 
+}
+
+
+.card {
+    background-color: rgb(34, 94, 79);
+    
+}
+
+.card-footer {
+    background-color: rgb(34, 94, 79);
+}
+
+.card-title {
+    color: white;
+}
+
+.btn {
+    font-style:unset;
+}
+
+.text-left {
+    color:  beige;
+    
+}
